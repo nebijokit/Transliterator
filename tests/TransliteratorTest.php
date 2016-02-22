@@ -22,7 +22,7 @@ class TransliteratorTest extends \PHPUnit_Framework_TestCase
             array('Déjà', 'Deja'),
             array('trąnslįteration tėst ųsąge ūž', 'transliteration test usage uz'),
             array('това е тестово заглавие', 'tova e testovo zaglavie'),
-            array('это тестовый заголовок', 'eto testovyi zagolovok'),
+            array('это тестовый заголовок', 'eto testovyy zagolovok'),
             array('führen Aktivitäten Haglöfs', 'fuhren Aktivitaten Haglofs'),
             array('тест', 'test'),
             array('Розничная торговля', 'Roznichnaya torgovlya'),
@@ -51,14 +51,20 @@ class TransliteratorTest extends \PHPUnit_Framework_TestCase
             array('Déjà', 'deja'),
             array('trąnslįteration tėst ųsąge ūž', 'transliteration-test-usage-uz'),
             array('това е тестово заглавие', 'tova-e-testovo-zaglavie'),
-            array('это тестовый заголовок', 'eto-testovyi-zagolovok'),
+            array('это тестовый заголовок', 'eto-testovyy-zagolovok'),
             array('führen Aktivitäten Haglöfs', 'fuhren-aktivitaten-haglofs'),
             array('тест', 'test'),
             array('Розничная торговля', 'roznichnaya-torgovlya'),
             array('Брест', 'brest'),
+            array('БрЕст', 'brest'),
             array('резюме', 'rezyume'),
             array('Промышленное производство', 'promyshlennoe-proizvodstvo'),
-            array('Оптовая торговля', 'optovaya-torgovlya')
+            array('Оптовая торговля', 'optovaya-torgovlya'),
+            array('ёлка', 'elka'),
+            array('Ёлка', 'elka'),
+            array('первый', 'pervyy'),
+            array('ПервыЙ', 'pervyy'),
+            array('Консультант', 'konsultant')
         );
     }
 
